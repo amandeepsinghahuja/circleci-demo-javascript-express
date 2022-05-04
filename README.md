@@ -16,7 +16,7 @@ See the [JavaScript language guide for CircleCI here](https://circleci.com/docs/
 
 **Note : Please make sure your MongoDB is running.** For MongoDB installation guide see [this](https://docs.mongodb.org/v3.0/installation/). Also `npm3` is required to install dependencies properly.
 
-## Available Commands
+## Available Commands 
 
 1. `npm run start` - starts the development server with hot reloading enabled
 
@@ -232,7 +232,7 @@ Also, `target-path` supports [ejs](https://github.com/mde/ejs) and the following
 #### Blueprint files
 Blueprints are basically [ejs](https://github.com/mde/ejs) templates which are rendered with the same three variables(`name`, optional `parent` and `helpers` object) as above.
 
-### Caveats
+### Caveats HELLO
 
 #### FOUC (Flash of Unstyled Content)
 To make the hot reloading of CSS work, we are not extracting CSS in development. Ideally, during server rendering, we will be extracting CSS, and we will get a .css file, and we can use it in the html template. That's what we are doing in production.
